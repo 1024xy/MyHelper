@@ -21,4 +21,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: run
-      run: dotnet run
+      run: dotnet run --property:StartupObject=MyTest.Program
