@@ -1,6 +1,9 @@
 name: .NET_Build
 
 on:
+  schedule:
+  - cron:  '0 23 * * *'
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
