@@ -1,8 +1,8 @@
 name: .NET_Build
 
 on:
-  schedule:
-  - cron:  '0 23 * * *'
+  #schedule:
+  #- cron:  '0 23 * * *'
   workflow_dispatch:
 
 jobs:
